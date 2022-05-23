@@ -1,0 +1,33 @@
+body {
+  -webkit-animation-name: backgroundAnim;
+          animation-name: backgroundAnim;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes backgroundAnim {
+  0% {
+    background-color: #ff3c3c;
+  }
+  50% {
+    background-color: #ff6161;
+  }
+  100% {
+    background-color: #ff3c3c;
+  }
+}
+
+@keyframes backgroundAnim {
+  0% {
+    background-color: #ff3c3c;
+  }
+  50% {
+    background-color: #ff6161;
+  }
+  100% {
+    background-color: #ff3c3c;
+  }
+}
+/*# sourceMappingURL=style.css.map */
